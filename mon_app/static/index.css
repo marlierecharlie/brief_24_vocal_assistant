@@ -1,0 +1,41 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh; /* Hauteur égale à la hauteur de la fenêtre */
+    margin-bottom: 2rem;
+  }
+  
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #CCFFFF;
+    border-radius: 5%;
+    max-width: 600px; /* Largeur maximale de la balise article */
+    box-shadow: 10px 5px 5px gray;
+  }
+  
+  button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+  }
+  
+  article p {
+    margin: 0 auto; /* Centrer le texte horizontalement */
+  }
+
+  #result {
+    font-weight: bold;
+    padding: 10px;
+  }
+  
