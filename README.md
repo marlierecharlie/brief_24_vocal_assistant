@@ -1,0 +1,1 @@
+Cette application crée avec Flask permet d'interragir avec l'API openAI via une commande vocale gérée par Azure speech service. 
